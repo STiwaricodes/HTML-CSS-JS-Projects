@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color palette Generator</h1>
+      <button id="generate-btn">
+        <i class="fas fa-sync-alt"></i>
+        Generate Palette
+      </button>
+      <div class="palette-container">
+        <!-- Color Box1 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #e1f5fe"></div>
+          <div class="color-info">
+            <span class="hex-value">#e1f5fe</span>
+            <i
+              id="copyBtn"
+              class="far fa-copy copy-btn"
+              tittle="Copy to clipboard"
+            ></i>
+          </div>
+        </div>
+        <!-- Color Box2 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #fef3c7"></div>
+          <div class="color-info">
+            <span class="hex-value">#fef3c7</span>
+            <i
+              id="copyBtn"
+              class="far fa-copy copy-btn"
+              tittle="Copy to clipboard"
+            ></i>
+          </div>
+        </div>
+        <!-- Color Box3 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #e0f2fe"></div>
+          <div class="color-info">
+            <span class="hex-value">#e0f2fe</span>
+            <i
+              id="copyBtn"
+              class="far fa-copy copy-btn"
+              tittle="Copy to clipboard"
+            ></i>
+          </div>
+        </div>
+        <!-- Color Box4 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #ecfdf5"></div>
+          <div class="color-info">
+            <span class="hex-value">#ecfdf5</span>
+            <i
+              id="copyBtn"
+              class="far fa-copy copy-btn"
+              tittle="Copy to clipboard"
+            ></i>
+          </div>
+        </div>
+        <!-- Color Box5 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #fce7f3"></div>
+          <div class="color-info">
+            <span class="hex-value">#fce7f3</span>
+            <i
+              id="copyBtn"
+              class="far fa-copy copy-btn"
+              tittle="Copy to clipboard"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy-alert">Copied to clipboard</div>
+    <script src="script.js"></script>
+  </body>
+</html>
